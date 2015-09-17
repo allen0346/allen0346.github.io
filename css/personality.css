@@ -1,0 +1,50 @@
+#personality{
+  position:relative;
+  width:100%;
+  background-color:#F3F3F3;
+  z-index:10;
+}
+
+#personalityTitle{
+  margin-top:70px;
+ width:160px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom:80px;
+}
+
+#will {
+  /*position:absolute;*/
+  /*top:30%;*/
+  /*z-index:16;*/
+  /*margin-bottom:200px;*/
+  margin-left: 20px;
+  margin-right:20px;
+  width:auto;
+  height:500px;
+}
+
+#seperate{
+  margin-top:50px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:28px;
+
+}
+
+#quoteDiv{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+#quote{
+  font-size:20px;
+  /*margin-left: 20px;*/
+  /*margin-right:20px;*/
+}
+
+#who{
+  font-size:14px;
+  float:right;
+}

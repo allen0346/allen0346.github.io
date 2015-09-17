@@ -1,0 +1,47 @@
+body{
+    font-family: "open sans";
+}
+
+.top-nav {
+  position: absolute;
+  left: 10%;
+  top: 30px;
+  font-size: 12px;
+  font-weight: 100;
+  z-index: 9;
+}
+
+.navList{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+.navList li {
+  display:inline;
+}
+
+.navList a{
+  margin-top:10px;
+  margin-left:10px;
+  color:white;
+  font-size:15px;
+}
+
+
+#mainBlock {
+    position: absolute;
+    top: 23%;
+    left: 11%;
+    text-align: left;
+    width: 55%;
+    color: white;
+    opacity:0.9;
+    z-index:15;
+    /*font-family: "open sans";*/
+}
+
+#mainContent{
+  /*position: relative;*/
+  font-size: 130%;
+}
