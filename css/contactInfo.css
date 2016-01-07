@@ -85,7 +85,7 @@
   position: absolute;
   z-index: 8;
   bottom:0px;
-  right:-40%;
+  right:-400px;
 }
 
 #toLeft{
@@ -124,7 +124,7 @@
   width:430px;
   position: absolute;
   bottom:0px;
-  left:-40%;
+  left:-500px;
 }
 
 #toRight{
