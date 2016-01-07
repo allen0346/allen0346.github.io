@@ -1,11 +1,11 @@
 // ----- sharkFin movining -----
-var sharkFin = document.getElementById("sharkFin");
-var sharkFin2 = document.getElementById("sharkFin2");
+var toLeftMove = document.getElementById("toLeftMove");
+var toRightMove = document.getElementById("toRightMove");
+var battleShip = document.getElementById("battleShip");
 var sharkTween = new TimelineMax({repeat:-1});
-sharkTween.add(TweenLite.to(sharkFin, 10, {left:"100%"}));
-sharkTween.add(TweenLite.to(sharkFin2, 10, {right:"100%"}));
-// var sharkFinTween = TweenLite.to(sharkFin, 15, {left:"100%"});
-// sharkFinTween.repeat(-1);
+sharkTween.add(TweenLite.to(toLeftMove, 10, {right:"100%"}));
+sharkTween.add(TweenLite.to(toRightMove, 10, {left:"100%"}));
+
 
 
 // ----- cloud Hovering and Clicking-------
