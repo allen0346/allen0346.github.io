@@ -39,10 +39,6 @@ div{
   background-color:white;
   position:absolute;
   z-index:7;
-  /*animation-name: cloudDayNight;
-  animation-duration: 16s;
-  animation-iteration-count: 999;*/
-  /*opacity:0.8;*/
 }
 
 #coverBottom{
@@ -52,9 +48,6 @@ div{
   background-color:white;
   position:absolute;
   z-index:10;
-  animation-name: cloudDayNight;
-  animation-duration: 16s;
-  animation-iteration-count: 999;
 }
 
 /*--------------- sky animation ---------------*/
@@ -76,9 +69,6 @@ div{
   border-radius:50px;
   position:relative;
   z-index:7;
-  animation-name: cloudDayNight;
-  animation-duration: 16s;
-  animation-iteration-count: 999;
 }
 
 .cloud::before, .cloud::after{
@@ -98,14 +88,6 @@ div{
    -webkit-transform: rotate(-60deg);
    -moz-transform: rotate(60deg);
    transform: rotate(-60deg);
-   -webkit-animation-name: cloudDayNight;
-   -webkit-animation-duration: 16s;
-   -webkit-animation-iteration-count: 999;
-   animation-name: cloudDayNight;
-   animation-duration: 16s;
-   animation-iteration-count: 999;
-
-
 }
 
 .cloud::after{
@@ -118,12 +100,6 @@ div{
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
   transform: rotate(60deg);
-  -webkit-animation-name: cloudDayNight;
-  -webkit-animation-duration: 16s;
-  -webkit-animation-iteration-count: 999;
-  animation-name: cloudDayNight;
-  animation-duration: 16s;
-  animation-iteration-count: 999;
 }
 
 
@@ -242,11 +218,13 @@ div{
   border-radius: 100%;
   position:absolute;
   right:16%;
-  /*display:none;*/
   opacity:0;
+  background-color:none;
   top:10%;
   box-shadow:15px 0px 0 9px #F6EF3D;
+   -moz-box-shadow:15px 0px 0 9px #F6EF3D;
   transform:rotate(25deg);
+  -moz-transform:rotate(25deg);
 }
 
 

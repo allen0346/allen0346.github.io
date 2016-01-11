@@ -4,7 +4,7 @@ body{
 
 .top-nav {
   position: absolute;
-  left: 10%;
+  left: 11%;
   top: 30px;
   font-size: 12px;
   font-weight: 100;
@@ -52,8 +52,21 @@ body{
 
 
 #title{
-  height:30px;
-  width:30px;
+  height:25px;
+  width:35px;
   margin:0;
   padding:0;
+  /*border-radius:20px;*/
 }
+
+
+/*
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 10px; }
+.toggle.ios .toggle-handle { border-radius: 10px; }
+
+#dnToggle{
+  position:absolute;
+  left:11%;
+  top:14%;
+}
+*/

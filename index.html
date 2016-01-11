@@ -2,11 +2,12 @@
 <html>
 <head>
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="./css/myStylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="stylesheet" href="./css/object.css">
   <link rel="stylesheet" href="./css/keySkills.css">
   <link rel="stylesheet" href="./css/contactInfo.css">
   <link rel="stylesheet" href="./css/personality.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -14,11 +15,6 @@
 <body>
   <div class="container-fluid">
     <div id="sky">
-      <!-- <div class="baloon"><div class="line" id="bl1"></div></div> -->
-      <!-- <div class="baloon"><div class="line"></div></div>
-      <div class="baloon"><div class="line"></div></div>
-      <div class="baloon"><div class="line"></div></div>
-      <div class="baloon"><div class="line"></div></div> -->
       <div class="top-nav">
         <ul class="navList">
             <li><a href="./index.html"><img id="title" src="./image/title.png"></a></li>
@@ -29,7 +25,6 @@
             <!-- <li><a href="#proj">Projects</a></li> -->
             <!-- <li><a href="#cont">Contact</a></li> -->
             <li><a id="resume" href="./file/resume.pdf" target="_blank" data-toggle="modal" data-target="#myModal">Resume</a></li>
-            <!-- <li><a id="resume" href="#res" data-toggle="modal" data-target="#myModal">Cover Letter</a></li> -->
         </ul>
       </div>
       <div id ="mainBlock">
@@ -40,6 +35,7 @@
           <p id="state">(Drawing:CSS, Animation: Javascript)</p>
         </div>
       </div>
+      <!-- <div id="dnToggle"><input id="myToggle" type="checkbox" checked data-toggle="toggle" data-style="ios" data-on="Day" data-off="Night"></div> -->
       <div id="sun"></div>
       <div id="moon"></div>
       <div id ="houseGraphic">
@@ -105,9 +101,7 @@
       <div class="row">
         <h1 id="keyTitle">Key Skills</h1>
         <br>
-        <!-- <div id="insWrapper"> -->
           <p id="instruction">Hover & Click Clouds</p>
-        <!-- </div> -->
       </div>
       <div class="row" id="row1">
         <div class="col-md-4 heightSetting">
@@ -212,10 +206,10 @@
     </div>
 
   </div>
-  <!-- <script src="/Users/han/Documents/Work/profileWebV2/greensockjs/src/uncompressed/plugins/CSSRulePlugin.js"></script> -->
-  <!-- <script src="/Users/han/Documents/Work/profileWebV2/greensockjs/src/uncompressed/plugins/CSSPlugin.js"></script> -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script> -->
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script src="./js/object.js"></script>
   <script src='./js/main.js'></script>
 

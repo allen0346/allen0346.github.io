@@ -1,4 +1,11 @@
+(function($) {
+   $('#myToggle').change(function() {
+    console.log($(this).prop('checked'));
+   })
+})(jQuery);
+
 // ----- sharkFin movining -----
+
 var toLeftMove = document.getElementById("toLeftMove");
 var toRightMove = document.getElementById("toRightMove");
 var battleShip = document.getElementById("battleShip");
@@ -9,9 +16,6 @@ sharkTween.add(TweenLite.to(toRightMove, 10, {left:"100%"}));
 
 
 // ----- cloud Hovering and Clicking-------
-// var hoverCloud =  document.getElementsByClassName("hoverCloud");
-// console.log(hoverCloud);
-
 $( ".hoverCloud" )
   .mouseover(function() {
     var hcTween = new TimelineMax({repeat:1});
@@ -34,8 +38,6 @@ $( ".hoverCloud" ).click(function() {
 var ins = document.getElementById("instruction");
 var insTween = new TimelineMax({repeat:-1});
 insTween.add(TweenMax.to(ins,1.5,{scale:0.6,repeat:1,yoyo:true}));
-// insTween.add(TweenLite.to(ins,2,{scale:1.5}));
-// insTween.add(TweenLite.to(ins,2,{font-size:18}));
 
 // ----- instruction text ------
 var sep = document.getElementById("seperate");
@@ -67,7 +69,7 @@ function myRandom(){
   return 100*Math.random();
 }
 var i = 0;
-while(i<110){
+while(i<160){
 
   createStar(i);
   i+=1;
@@ -75,17 +77,9 @@ while(i<110){
 
 // ----- house movining -----
 var house = document.getElementById("houseGraphic");
-// var houseTween = new TimelineMax({repeat:-1});
-// houseTween.add(house,10,{right:1000})
-// var photo = document.getElementById("photo");
 var houseTween = TweenMax.to(house, 15, {left:"80%",bottom:200});
 houseTween.repeat(-1);
 
-// ----- star twinkling -----
-
-// var starTween = new TimelineMax({repeat:-1});
-// starTween.add(TweenMax.to(starTest,1,{opacity:1,delay:0,repeat:1,yoyo:true}));
-// starTween.add(TweenMax.to(starTest,1,{opacity:0,delay:1}));
 
 
 // ----- Sky dayNight with star visibility -----
@@ -106,6 +100,9 @@ skyTween.to(sky,4,{backgroundColor:"#002E46",delay:4}, "skyChange")
 .to(moon,4,{xPercent:"400%"}, "skyChange+=12")
 .to(starTest,2,{backgroundColor:"#5CAED9"} ,"skyChange+=13");
 
+
+
+/*
 
 // ----- floating cloud moving -----
 var fc1 = document.getElementById("fc1");
@@ -128,3 +125,6 @@ var bfc = document.getElementsByClassName("boFlIl");
 var bfcTween = new TimelineMax({repeat:-1});
 bfcTween.add(TweenLite.to(bfc,2,{xPercent:"50%"}));
 bfcTween.add(TweenLite.to(bfc,2,{xPercent:0}));
+
+
+*/
