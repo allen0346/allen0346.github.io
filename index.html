@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/keySkills.css">
   <link rel="stylesheet" href="./css/contactInfo.css">
   <link rel="stylesheet" href="./css/personality.css">
+  <link rel="stylesheet" href="./css/animate.css">
   <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -19,7 +20,7 @@
         <ul class="navList">
             <li><a href="./index.html"><img id="title" src="./image/title.png"></a></li>
             <li><a href="http://allen0346.github.io/">Profile</a></li>
-            <li><a href="#keySkills">Key Skills</a></li>
+            <li><a href="#keySkills">Project</a></li>
             <li><a href="#personality">Personality</a></li>
             <li><a href="#contactInfo">Contact</a></li>
             <!-- <li><a href="#proj">Projects</a></li> -->
@@ -96,46 +97,48 @@
     <div id="coverBottom">
     </div>
 
-
     <div id="keySkills">
       <div class="row">
-        <h1 id="keyTitle">Key Skills</h1>
-        <br>
-          <p id="instruction">Hover & Click Clouds</p>
+        <h1 id="keyTitle">Project</h1>
       </div>
-      <div class="row" id="row1">
-        <div class="col-md-4 heightSetting">
-          <div class="cloud middle hoverCloud" id="clLeUp">
-            <p id="ulc2">C, Python, Java</p>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="wow bounceInLeft alignCenter projectColumn">
+            <img src="./image/diary.png">
+            <div class="info"><h3 class="projectTitle">Secret Diary</h3></div>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-4 heightSetting">
-          <div class="cloud middle hoverCloud" id="clRiUp">
-            <p id="urc1">Node.JS, Angulr.JS,</p>
-            <p id="urc2">Bootstrap, Foundation</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="wow bounceInDown alignCenter projectColumn">
+            <img src="./image/travel.png">
+            <div class="info"><h3 class="projectTitle">TourMe Web App</h3></div>
           </div>
         </div>
-      </div>
-      <div class="row" id="row1">
-        <div class="col-md-4 col-md-offset-4 heightSetting">
-          <div class="cloud middle hoverCloud" id="clMiddle">
-            <p id="mc1">HTML, Javascript,</p>
-            <p id="mc2">CSS,</p>
-            <p id="mc3">PHP, SQL</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="wow bounceInRight alignCenter projectColumn">
+            <img src="./image/kinect.jpg">
+            <div class="info"><h3 class="projectTitle">Hospital Ward Surveillance - Kinect</h3></div>
           </div>
         </div>
-      </div>
-      <div class="row" id="row1">
-        <div class="col-md-3 col-md-offset-2 heightSetting ">
-          <div class="cloud middle hoverCloud" id="clLeDw">
-            <p id="dlc2">JQuery, GSAP</p>
+      <!-- </div> -->
+
+      <!-- <div class="row"> -->
+        <div class="col-sm-6 col-md-4">
+          <div class="wow bounceInLeft alignCenter projectColumn">
+            <img src="./image/map.png">
+            <div class="info"><h3 class="projectTitle">Data Visualization</h3></div>
           </div>
         </div>
-        <div class="col-md-3 col-md-offset-2 heightSetting ">
-          <div class="cloud middle hoverCloud" id="clRiDw">
-            <p id="drc1">MySQL, Server</p>
-            <p id="drc2">GitHub,</p>
-            <p id="drc3">Linux Command</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="wow flip alignCenter projectColumn">
+            <img src="./image/chat.png">
+            <div class="info"><h3 class="projectTitle">Web Chat Application</h3></div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="wow bounceInRight alignCenter projectColumn">
+            <img src="./image/question.png">
+            <div class="info"><h3 class="projectTitle">Waiting!</h3></div>
           </div>
         </div>
       </div>
@@ -147,7 +150,7 @@
         <p id="seperate">Keep Descending</p>
       </div>
       <div class="row">
-        <h1 id="personalityTitle">Personality</h1>
+        <h1 id="personalityTitle">Motto</h1>
       </div>
       <div class="row">
         <div class="col-md-3 col-md-offset-3">
@@ -209,7 +212,8 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script> -->
-  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
+  <script src="./js/wow.min.js"></script>
   <script src="./js/object.js"></script>
   <script src='./js/main.js'></script>
 

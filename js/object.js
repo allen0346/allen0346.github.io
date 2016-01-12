@@ -16,28 +16,28 @@ sharkTween.add(TweenLite.to(toRightMove, 10, {left:"100%"}));
 
 
 // ----- cloud Hovering and Clicking-------
-$( ".hoverCloud" )
-  .mouseover(function() {
-    var hcTween = new TimelineMax({repeat:1});
-    hcTween.add(TweenLite.to(this,0.5,{yPercent:"-25%"}));
-    hcTween.add(TweenLite.to(this,0.5,{yPercent:0}));
-  })
-  .mouseout(function() {
-    content = this.children;
-    TweenLite.to(content,0.5,{opacity:0});
-  });
-
-$( ".hoverCloud" ).click(function() {
-  content = this.children;
-  TweenLite.to(content,0.5,{opacity:1});
-});
+// $( ".hoverCloud" )
+//   .mouseover(function() {
+//     var hcTween = new TimelineMax({repeat:1});
+//     hcTween.add(TweenLite.to(this,0.5,{yPercent:"-25%"}));
+//     hcTween.add(TweenLite.to(this,0.5,{yPercent:0}));
+//   })
+//   .mouseout(function() {
+//     content = this.children;
+//     TweenLite.to(content,0.5,{opacity:0});
+//   });
+//
+// $( ".hoverCloud" ).click(function() {
+//   content = this.children;
+//   TweenLite.to(content,0.5,{opacity:1});
+// });
 
 
 
 // ----- instruction text ------
-var ins = document.getElementById("instruction");
-var insTween = new TimelineMax({repeat:-1});
-insTween.add(TweenMax.to(ins,1.5,{scale:0.6,repeat:1,yoyo:true}));
+// var ins = document.getElementById("instruction");
+// var insTween = new TimelineMax({repeat:-1});
+// insTween.add(TweenMax.to(ins,1.5,{scale:0.6,repeat:1,yoyo:true}));
 
 // ----- instruction text ------
 var sep = document.getElementById("seperate");
